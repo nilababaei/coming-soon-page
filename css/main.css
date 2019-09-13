@@ -1,4 +1,22 @@
 html {
   font-family: "Source Sans Pro", sans-serif;
+  background-image: url("../images/jay-mantri-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+.social-icon:hover {
+  transform: scale(1.05);
+  transition: all 150ms linear;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-family: "Paytone One", sans-serif;
+}
+
+.social-section {
+  max-width: 18em;
+  margin: 0 auto;
 }
