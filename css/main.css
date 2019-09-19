@@ -20,3 +20,18 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 18em;
   margin: 0 auto;
 }
+
+.email {
+  color: #000;
+  text-decoration: none;
+}
+
+.email:hover {
+  color: #de9e36;
+}
+
+.logo {
+  width: 10em;
+  margin: 0 auto;
+  margin-bottom: 1.5em;
+}
