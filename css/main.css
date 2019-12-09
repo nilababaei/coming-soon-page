@@ -1,5 +1,8 @@
 html {
   font-family: "Rubik", sans-serif;
+}
+
+.bg-image {
   background-image: url("../images/bg-image4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,7 +10,6 @@ html {
 
 .bg-colour {
   background-color: rgba(255, 255, 255, 0.75);
-  height: 100vh;
 }
 
 .logo {
@@ -21,4 +23,16 @@ h4 {
 
 p {
   color: #37323e;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .bg-image {
+    height: 100vh;
+  }
+
+  .bg-colour {
+    height: 100vh;
+  }
+
 }
