@@ -1,8 +1,12 @@
 html {
-  font-family: "Source Sans Pro", sans-serif;
-  background-image: url("../images/jay-mantri-unsplash.jpg");
+  font-family: "Rubik", sans-serif;
+  background-image: url("../images/bg-image4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bg-colour {
+  background-color: rgba(255, 255, 255, 0.75);
   height: 100vh;
 }
 
@@ -11,26 +15,15 @@ html {
   transition: all 150ms linear;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Paytone One", sans-serif;
-}
-
-.social-section {
-  max-width: 18em;
-  margin: 0 auto;
-}
-
-.email {
-  color: #000;
-  text-decoration: none;
-}
-
-.email:hover {
-  color: #de9e36;
-}
-
 .logo {
   width: 10em;
-  margin: 0 auto;
   margin-bottom: 1.5em;
+}
+
+h4 {
+  color: #b7372d;
+}
+
+p {
+  color: #37323e;
 }
