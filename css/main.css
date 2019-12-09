@@ -10,11 +10,6 @@ html {
   height: 100vh;
 }
 
-.social-icon:hover {
-  transform: scale(1.05);
-  transition: all 150ms linear;
-}
-
 .logo {
   width: 10em;
   margin-bottom: 1.5em;
